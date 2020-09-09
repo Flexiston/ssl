@@ -9,7 +9,7 @@ script:
   - npm run build
   - cd CheckSSL
   - chmod +x checker.sh
-  - ./checker.sh blog.flexiston.com flexiston.com www.flexiston.com ssl.flexiston.com status.flexiston.com
+  - ./checker.sh blog.flesx.cn flesx.cn www.flesx.cn status.flesx.cn ssl.flesx.cn blog.flexiston.com flexiston.com www.flexiston.com ssl.flexiston.com
   - cp -rf ./output/ct.json ../public/ct.json
 branches:
   only:
